@@ -18,12 +18,14 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <Button
+        <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="좋아요"
+            android:padding="10dp"
+            android:gravity="center"
+            android:clickable="true"
             android:background="@drawable/red_border_round_rect"
-            android:backgroundTint="@null"
             android:layout_weight="1"/>
 
         <Button
